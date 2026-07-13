@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:text="PulseOx Monitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#E0E0E0"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <!-- Device selector -->
+    <TextView android:text="Select HC-05 Device:"
+        android:textColor="#AAAAAA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Spinner android:id="@+id/spinnerDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2D2D44"
+        android:padding="8dp"
+        android:popupBackground="#2D2D44"/>
+
+    <!-- Buttons -->
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button android:id="@+id/btnConnect"
+            android:text="Connect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0F3460"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="4dp"/>
+
+        <Button android:id="@+id/btnDisconnect"
+            android:text="Disconnect"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#7F0000"
+            android:textColor="#FFFFFF"
+            android:enabled="false"
+            android:layout_marginStart="4dp"/>
+    </LinearLayout>
+
+    <!-- Status -->
+    <TextView android:id="@+id/tvStatus"
+        android:text="Disconnected"
+        android:textColor="#7F8C8D"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="8dp"/>
+
+    <!-- Vitals display -->
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <!-- BPM Card -->
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center">
+
+            <TextView android:text="Heart Rate"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView android:id="@+id/tvBpm"
+                android:text="--"
+                android:textColor="#E74C3C"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView android:text="BPM"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- SpO2 Card -->
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#16213E"
+            android:padding="16dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center">
+
+            <TextView android:text="SpO2"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView android:id="@+id/tvSpo2"
+                android:text="--%"
+                android:textColor="#27AE60"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView android:text="Oxygen Saturation"
+                android:textColor="#AAAAAA"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Serial log -->
+    <TextView android:text="Serial Log:"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <ScrollView android:id="@+id/scrollLog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0D0D1A"
+        android:padding="8dp">
+
+        <TextView android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00FF88"
+            android:fontFamily="monospace"
+            android:textSize="11sp"/>
+    </ScrollView>
+
+</LinearLayout>

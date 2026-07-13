@@ -1,0 +1,21 @@
+# Android
+.gradle/
+**/build/
+local.properties
+.idea/caches/
+.idea/libraries/
+.idea/workspace.xml
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# KiCad
+*.kicad_prl
+*-backups/
