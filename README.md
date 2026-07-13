@@ -35,3 +35,11 @@ PCB
 The custom PCB was designed in KiCad as a two-layer board with separate schematic sheets for power supply, MCU, sensor module, HC-05 Bluetooth module and OLED display.
 - Open Oximeter.kicad_pro in KiCad.
 - Use the PCB editor or 3D viewer to inspect the design.
+
+Test results:
+
+Hardware & Firmware
+<img width="1530" height="2040" alt="oxi3" src="https://github.com/user-attachments/assets/1d6f22a1-ceed-4e2d-a197-61dc0b26ba7d" />
+
+Android App
+<img width="1039" height="2048" alt="oxi4" src="https://github.com/user-attachments/assets/e161a294-9986-4210-bba9-9ce87834f776" />
