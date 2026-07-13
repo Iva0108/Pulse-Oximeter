@@ -39,7 +39,7 @@ The custom PCB was designed in KiCad as a two-layer board with separate schemati
 Test results:
 
 Hardware & Firmware
-<img width="1530" height="2040" alt="oxi3" src="https://github.com/user-attachments/assets/1d6f22a1-ceed-4e2d-a197-61dc0b26ba7d" />
+<img width="765" height="1020" alt="oxi3" src="https://github.com/user-attachments/assets/1d6f22a1-ceed-4e2d-a197-61dc0b26ba7d" />
 
 Android App
-<img width="1039" height="2048" alt="oxi4" src="https://github.com/user-attachments/assets/e161a294-9986-4210-bba9-9ce87834f776" />
+<img width="520" height="1024" alt="oxi4" src="https://github.com/user-attachments/assets/e161a294-9986-4210-bba9-9ce87834f776" />
