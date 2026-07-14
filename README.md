@@ -36,14 +36,23 @@ The custom PCB was designed in KiCad as a two-layer board with separate schemati
 - Open Oximeter.kicad_pro in KiCad.
 - Use the PCB editor or 3D viewer to inspect the design.
 
-Test results:
-
-Hardware & Firmware
 
 
-<img width="765" height="1020" alt="oxi3" src="https://github.com/user-attachments/assets/1d6f22a1-ceed-4e2d-a197-61dc0b26ba7d" />
-
-Android App
+Hardware & Firmware:
 
 
-<img width="520" height="1024" alt="oxi4" src="https://github.com/user-attachments/assets/e161a294-9986-4210-bba9-9ce87834f776" />
+<img width="400" height="600" alt="oxi3" src="https://github.com/user-attachments/assets/1d6f22a1-ceed-4e2d-a197-61dc0b26ba7d" />
+
+Android App:
+
+
+<img width="300" height="600" alt="oxi4" src="https://github.com/user-attachments/assets/e161a294-9986-4210-bba9-9ce87834f776" />
+
+PCB:
+
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/a055e4f5-4d13-477d-a52a-659ed24a71cf" />
+
+Case:
+
+
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/48fba018-4fa9-443c-af0e-589d1f5b45c6" />
